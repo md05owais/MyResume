@@ -1,0 +1,58 @@
+#skills {
+    height: 350px;
+    width: inherit;
+}
+#skills #heading{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 30px;
+}
+#skills ul li{
+    width: 17%;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 30px 30px;
+    margin: 20px;
+    list-style: none;
+}
+.my-skills x{
+    padding-left: 12px;
+    color: white;
+}
+.my-skills{
+    margin-left: 12%;
+}
+#skills{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.sub1{
+    background: linear-gradient( to right, red 50%, transparent 50%);
+}
+.sub2{
+    background: linear-gradient( to right, green 70%, transparent 30%);
+}
+.sub3{
+    background: linear-gradient( to right, blue 60%, transparent 40%);
+}
+.sub4{
+    background: linear-gradient( to right, yellow 45%, transparent 55%);
+}
+.sub5{
+    background: linear-gradient( to right, red 50%, transparent 50%);
+}
+.sub6{
+    background: linear-gradient( to right, black 90%, transparent 10%);
+}
+.sub7{
+    background: linear-gradient( to right, cyan 10%, transparent 90%);
+}
+.sub8{
+    background: linear-gradient( to right, orange 75%, transparent 25%);
+}

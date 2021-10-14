@@ -1,0 +1,27 @@
+section {
+    width: 100%;
+    height: auto;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: rgb(233, 199, 199);
+}
+section:nth-child(2n + 1){
+    background-color: white;
+}
+section:target{
+    background-color: cyan;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}

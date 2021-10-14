@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+}
+/* body header*/
+.header{
+    height: 95vh;
+    opacity: 1;
+    background-image: url(image/apple-mac-laptop-mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* horizontal list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-size: 24px;
+    position: relative;
+    top: 25px;
+}
+.horizontal-list li a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+.horizontal-list li a:hover{
+    color: red;
+    border-bottom: 1px solid white;
+    
+}
+.text-center{
+    text-align: center;
+}
+/* heading for name */
+.header h3{
+    font-family: algerian;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+    font-size: 120px;
+    text-shadow: 4px 4px 5px red;
+}
+/* social icon */
+#social-container{
+    margin-top: 13vh;
+}
+.horizontal-list li img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 15px 15px 15px;
+    
+}
+.social-icons li a{
+    /* color: red; */
+    border-radius: 50%;
+
+}
+.social-icons li a:hover{
+    color: red;
+    box-shadow: 0px 0px 10px 8px red;
+
+}
+/* about section  */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 4rem;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -13.5vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px lightgray, 0 6px 20px lightgray;
+}
+#my-about{
+    color: grey;
+    text-align: justify;
+    margin: 40px 8% 0px 8%; 
+}
+/* contact section  */
+#contact{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top right, rgb(6, 6, 82), rgb(185, 151, 123), rgb(177, 63, 63), cyan);
+    background-size: cover;
+}
+#contact h3{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+#login-detail{
+  margin: 5% 8% 25px;
+
+}
+#login-detail .login{
+    padding: 4px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 100px;
+}
+.submit{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(36, 36, 121);
+    text-align: center;
+}
+#login-detail{
+    width: 40%;
+    position: relative;
+    left: 100px;
+    display: inline-block;
+}
+#address{
+    width: 40%;
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+    display: inline-block;
+    color: white;
+}
+#address a{
+    color: white;
+}
+#address .logo {
+    position: relative;
+    left: -20px;
+}
+#address img{
+    width: 20px;
+    height: 25px;
+    background-color: rgb(105, 28, 105);
+    position: relative;
+    top: 5px;
+    left: -20px;
+}
+#address ul{
+    list-style: none;
+}
+#login-detail form input{
+    color: yellow;
+    width: 60%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+#login-detail form textarea{
+    width: 60%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: yellow;
+}
+#login-detail form button{
+    background: transparent;
+    position: relative;
+    left: 25%;
+    border: 2px solid white;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+#contact-image{
+    align-items: center;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    left: 44%;
+    top: 70px
+}
+
+
+
+
